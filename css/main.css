@@ -1,0 +1,58 @@
+/* $text-color: orange;
+
+@mixin box-shadow($color) {
+    // box-shadow: 4px 4px 4px 1px rgba($text-color, 0.6);
+    box-shadow: 4px 4px 4px 1px $color;
+} */
+/* @mixin make-bold($bool) {
+    @if $bool == true {
+        font-weight: bold;
+    }
+} */
+/* @mixin text-effect($val) {
+    @if $val == danger {
+        color: red;
+    } @else if $val == alert {
+        color: yellow;
+    } @else {
+        color: black; // none
+    }
+} */
+/* body {
+    background-color: #7159c1;
+    color: $text-color;
+} */
+/* .container {
+    @include box-shadow(rgba(0, 0, 0, 0.6));
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    $text-color: blue;
+    p {
+        @include box-shadow(rgba(0, 0, 0, 0.6));
+        background-color: gray;
+        width: 100px;
+        height: 100px;
+        color: $text-color;
+        @include text-effect(none);
+    }
+} */
+/* .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    @extend .flex;
+    flex-direction: column;
+    height: 100%;
+} */
+/* p {
+    color: red;
+    cursor: pointer;
+    &:hover {
+        color: blue;
+    }
+} */
+/*# sourceMappingURL=main.css.map */
